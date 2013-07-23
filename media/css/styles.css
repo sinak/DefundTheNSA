@@ -1,0 +1,156 @@
+html {
+	margin: 0px;
+	padding: 0px;			
+}
+body {
+	font-family:"ff-dagny-web-pro",sans-serif;
+	color: #484848;
+  padding: 25px 0 0 0;
+  background: #ecf0f1;
+  line-height: 1.5;
+}
+.content-container {
+	width: 700px;
+	margin: 0 auto;
+}
+strong {
+  font-weight: bold;
+}
+h1 {
+  font-size: 38px;
+}
+.intro {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.addthis_default_style .at300b {
+  padding: 0 25px 0 0       !important; 
+}
+.tagline {
+  font-size: 20px;
+  font-weight: bold;
+}
+p {
+  padding: 10px 0 10px 0;
+}
+.important {
+  font-weight: bold;
+}
+form {
+  padding: 20px;
+}
+#what-to-say {
+  display: none;
+  margin-bottom: 20px;
+}
+.what-to-say-text {
+  padding: 10px;
+  border: 1px dashed #efefef;
+  background: #F0EFDF;
+  margin-bottom: 5px;
+}
+.box {
+  background-color:white;
+  -moz-box-shadow: 0 0 3px 1px rgba(0,0,0,.05), 0 1px 2px 0px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 0 3px 1px rgba(0,0,0,.05), 0 1px 2px 0px rgba(0,0,0,.1);
+  box-shadow: 0 0 3px 1px rgba(0,0,0,.05), 0 1px 2px 0px rgba(0,0,0,.1);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;
+  padding:20px;
+}
+.box.last {
+  margin-bottom: 0;
+}
+.zipcode-search  {
+  width: 405px;
+  margin: auto;
+}
+.zipcode-search input,
+.zipcode-search label,
+.zipcode-search button {
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-right: 15px;
+}
+.zipcode-search label {
+  font-size: 24px;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+}
+.zipcode-search input.search {
+  height: 40px;
+  padding: 0;
+  font-size: 22px;
+  border: 1px solid #ebebeb;
+color: #444;
+padding-left: 10px;
+width: 100px;
+padding-right: 10px;
+}
+blockquote {
+  font-size: 95%;
+  color: #777;
+  font-variant: italic;
+  padding-left: 20px;
+}
+.btn {
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgb(52, 152, 219);
+  border: 0px;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 100%;
+  max-width: 160px;
+  display: block;
+  line-height: 25px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+}
+
+#legislators.loading {
+  padding: 20px;
+  text-align:center;
+  content: 'Loading...';
+  background: url(../images/ajax-loader.gif) no-repeat center center;
+}
+#tweets, #phones {
+  display: none;
+}
+.footer {
+  padding: 5px;
+  text-align: right;
+  font-size: 12px;
+}
+#tweets {
+  margin-top: 20px;
+}
+table {
+  width: 400px;
+}
+table th {
+  font-weight: bold;
+  text-align: left;
+}
